@@ -19,7 +19,7 @@ namespace ConsoleApplication
             return values.Average();
         }
         
-        public static int CalculateMaxx(int[] values)
+        public static int CalculateMax(int[] values)
         {
             return values.Max();
         }
