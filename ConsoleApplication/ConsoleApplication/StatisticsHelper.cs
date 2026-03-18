@@ -1,4 +1,6 @@
-﻿namespace ConsoleApplication
+﻿using System.Linq;
+
+namespace ConsoleApplication
 {
     public static class StatisticsHelper
     {
@@ -10,6 +12,11 @@
                 sum += v;
             }
             return sum;
+        }
+
+        public static double CalculateAverage(int[] values)
+        {
+            return values.Average();
         }
     }
 }
